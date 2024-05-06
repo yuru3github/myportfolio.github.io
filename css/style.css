@@ -542,14 +542,14 @@ footer p {
     /* HOME */
     
     .homephoto {
-        margin: 50px 0 0 0;
+        margin: 50px 0 0 50px;
         height: 200px;
     }
     
     .amo {
         padding-top: 10px;
         border-bottom: 5rem solid rgb(241, 239, 239);
-        width: 100vw+100px;
+        width: width+50px;
     }
     
     .about-more {
@@ -561,7 +561,7 @@ footer p {
     }
     
     .prev-work {
-        padding-bottom: 15px;
+        padding-bottom: 10px;
     }
     
     .prev-work p {
@@ -579,7 +579,7 @@ footer p {
     /* ABOUT */
     
     .aboutphoto {
-        margin: 50px 0 0 0;
+        margin: 50px 0 0 50px;
         height: 200px;
     }
     
@@ -594,26 +594,6 @@ footer p {
     .aboutslist p {
         padding-top: 10px;
         padding-left: 5px;
-    }
-    
-    /* WORK */
-    
-    .work-content {
-        margin: 5px;
-    }
-    
-    .work {
-        padding-top: 10px;
-        padding-bottom: 20px;
-    }
-    
-    .work li {
-        padding-top: 5px;
-        
-    }
-    
-    .work p {
-        padding-top: 5px;   
     }
     
     /* CONTACT */
@@ -658,6 +638,7 @@ footer p {
     
     footer {
         padding: 8px 50px 8px 50px;
+        width: width+50px;
     }
     
     footer p {
