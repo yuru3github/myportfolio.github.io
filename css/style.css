@@ -12,7 +12,7 @@ a {
 }
 
 img {
-    max-width: 70%;
+    max-width: 55%;
 }
 
 h1 {
@@ -212,14 +212,23 @@ p {
 }
 
 .prev-work li {
-    padding: 5% 0 0 23%;
+    padding: 5% 0 0 10%;
     text-align: center;
 }
 
 .prev-work p {
     text-align: center;
     font-size: 1rem;
-    padding-top: 10px;
+    padding-top: 1px;
+}
+
+.prev-work img {
+    max-width: 40%;
+}
+
+.prewix,.preshopify,.prehtmlcss,.prewordpress {
+    display: flex;
+    justify-content: center;
 }
 
 .work-more {
@@ -375,13 +384,11 @@ p {
 
 .work {
     list-style: none;
-    padding-top: 50px;
-    padding-bottom: 200px;
+    padding-top: 80px;
 }
 
 .work li {
-    padding-top: 60px;
-    
+    padding-bottom: 100px;
 }
 
 .work p {
@@ -738,37 +745,15 @@ footer p {
 @media (max-width: 600px) {
     
     h1 {
-        letter-spacing: 3px;
+        letter-spacing: 10px;
     }
     
     h4 {
-        letter-spacing: 1px;
+        letter-spacing: 5px;
     }
     
     .wrapper {
-        max-width: 400px;
-    }
-    
-    /* ヘッダー */
-    
-    .page-header {
-        height: 50px;
-    }
-    
-    .logo {
-        width: 30px;
-        margin-top: 5px;
-        margin-left: 30px;
-        margin-bottom: 5px;
-    }
-    
-    .main-nav {
-        margin-top: 5px;
-        margin-right: 5px;
-    }
-    
-    .main-nav li {
-        margin-left: 1px;
+        max-width: 500px;
     }
     
     /* HOME */
@@ -779,8 +764,9 @@ footer p {
     }
     
     .amo {
-        padding-top: 5px;
+        padding-top: 10px;
         border-bottom: 5rem solid rgb(241, 239, 239);
+        width: 100vw+100px;
     }
     
     .about-more {
@@ -792,11 +778,11 @@ footer p {
     }
     
     .prev-work {
-        padding-bottom: 5px;
+        padding-bottom: 15px;
     }
     
     .prev-work p {
-        padding-top: 3px;
+        padding-top: 5px;
     }
     
     .work-more {
@@ -815,7 +801,7 @@ footer p {
     }
     
     .like p {
-        padding-top: 1px;
+        padding-top: 5px;
     }
     
     .aboutslist {
