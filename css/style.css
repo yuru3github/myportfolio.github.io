@@ -217,9 +217,10 @@ p {
 }
 
 .prev-work p {
-    text-align: center;
+    text-align: left;
     font-size: 1rem;
     padding-top: 1px;
+    width: 100%;
 }
 
 .prev-work img {
@@ -523,7 +524,6 @@ footer p {
     width: 1px;
 }
 
-
 /* モバイル */
 @media (max-width: 600px) {
     
@@ -532,7 +532,7 @@ footer p {
     }
     
     h4 {
-        letter-spacing: 5px;
+        letter-spacing: 20px;
     }
     
     .wrapper {
@@ -548,7 +548,7 @@ footer p {
     
     .amo {
         padding-top: 10px;
-        border-bottom: 5rem solid rgb(241, 239, 239);
+        border-bottom: 5rem solid rgb(62, 60, 60);
         width: width+50px;
     }
     
