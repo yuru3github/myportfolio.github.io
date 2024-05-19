@@ -722,3 +722,204 @@ footer p {
     }
 
 }
+
+
+/* モバイル */
+@media (max-width: 500px) {
+    
+    img {
+        max-width: 80%;
+    }
+    
+    h1 {
+        font-size: 3rem;
+        letter-spacing: 18px;
+    }
+    
+    h3 {
+        font-size: 1.3rem;
+    }
+    
+    h4 {
+        font-size: 1rem;
+        letter-spacing: 2px;
+    }
+    
+    p {
+        font-size: 1rem;
+    }
+    
+    /* ヘッダー */
+    
+    .page-header {
+        height: 80px;
+        border-bottom: 0.3rem solid rgb(181, 179, 179);
+    }
+    
+    .logo {
+        width: 55px;
+        margin-top: 5px;
+        margin-left: 50px;
+        margin-bottom: 5px;
+    }
+    
+    .main-nav {
+        font-size: 0.8rem;
+        margin-top: 25px;
+        margin-right: 50px;
+    }
+    
+    .main-nav li {
+        margin-left: 30px;
+    }
+    
+    /* HOME */
+    
+    .homephoto {
+        margin: 80px 0 0 0;
+        height: 500px;
+        position:relative;
+        width: 110%;
+    }
+    
+    .home-content {
+        position:absolute;
+        top: 57%;
+        left: 22%;
+    }
+    
+    .prev-about h3 {
+        padding-left: 5%;
+    }
+    
+    .prev-about p {
+        padding-left: 5%;
+        padding-right: 25%;
+    }
+    
+    .amo {
+        border-bottom: 10rem solid rgb(241, 239, 239);
+        width: 110%;
+    }
+    
+    .about-more {
+        font-size: 1rem;
+    }
+    
+    .about-more:hover {
+        font-size: 1rem;
+    }
+    
+    .prev-about p {
+        animation-name: slideinLeft;
+        animation-fill-mode:forwards;
+        animation-duration:3s;
+        animation-timing-function:ease-in;
+        animation-direction:normal;
+    }
+    
+    @keyframes slideinLeft{
+        0% {
+            transform: translateX(-100px);
+        }
+      
+        100% {
+            transform: translateX(0px);
+        }
+    }
+    
+    .work-show {
+        padding: 5% 0 15% 0;
+        position:relative;
+    }
+    
+    .draw-w {
+        position:absolute;
+        left: 5%;
+    }
+    
+    .prev-work li {
+        padding: 15% 0 0 15%;
+    }
+    
+    .prev-work p {
+        font-size: 0.8rem;
+        padding-top: 20px;
+    }
+    
+    .prev-work img {
+        max-width: 60%;
+    }
+    
+    .work-more {
+        font-size: 1rem;
+    }
+    
+    .work-more:hover {
+        font-size: 1rem;
+    }
+    
+    /* ABOUT */
+    
+    .aboutphoto {
+        margin: 80px 0 0 0;
+        position: relative;
+    }
+    
+    .about-screen {
+        width: 80%;
+        position: absolute;
+        top: 25%;
+        left: 10%;
+    }
+    
+    .career {
+        margin: 5% 15% 10%;
+    }
+    
+    .skill {
+        margin: 5% 15%;
+    }
+    
+    .about-block {
+        padding: 5%;
+    }
+    
+    .aboutslist p {
+        padding-left: 5px;
+    }
+    
+    /* CONTACT */
+    
+    .contact {
+        margin: 50px;
+    }
+    
+    .contact-content {
+        padding: 0 10% 8%;
+    }
+    
+    input[type="text"] {
+        padding: 10px;
+    }
+    
+    input[type="text"]:hover {
+        padding: 10px;
+    }
+
+    input[type="email"],input[type="phonenumber"],textarea {
+        padding: 10px 115px;
+    }
+    
+    input[type="email"]:hover,input[type="phonenumber"]:hover,textarea:hover {
+        padding: 10px 115px;
+    }
+    
+    /* フッター */
+    
+    footer {
+        padding: 10px 200px 10px 30px;
+        width: 110%;
+    }
+
+}
