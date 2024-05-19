@@ -543,10 +543,6 @@ footer p {
     p {
         font-size: 1rem;
     }
-
-    .wrapper {
-        max-width: 800px;
-    }
     
     /* ヘッダー */
     
@@ -578,10 +574,11 @@ footer p {
         margin: 80px 0 0 0;
         height: 500px;
         position:relative;
-        width: 120%;
+        width: 150%;
     }
     
     .home-content {
+	width: 150%;
         position:absolute;
         top: 57%;
         left: 22%;
@@ -628,7 +625,7 @@ footer p {
     }
     
     .work-show {
-        padding: 5% 0 15% 0;
+        padding: 5% 0 10% 0;
         position:relative;
     }
     
