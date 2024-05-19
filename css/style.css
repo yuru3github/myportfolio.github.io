@@ -574,11 +574,10 @@ footer p {
         margin: 80px 0 0 0;
         height: 500px;
         position:relative;
-        width: 800px;
+        width: 110%;
     }
     
     .home-content {
-	width: 150%;
         position:absolute;
         top: 57%;
         left: 22%;
