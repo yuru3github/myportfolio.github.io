@@ -543,6 +543,10 @@ footer p {
     p {
         font-size: 1rem;
     }
+
+    .wrapper {
+        max-width: 800px;
+    }
     
     /* ヘッダー */
     
@@ -574,7 +578,7 @@ footer p {
         margin: 80px 0 0 0;
         height: 500px;
         position:relative;
-        width: 110%;
+        width: 120%;
     }
     
     .home-content {
