@@ -662,13 +662,17 @@ footer p {
 	
     /* WORK */
 
+    .work h2 {
+        padding-top: 100px;
+	padding-bottom: 50px;
+    }
+	
     .work-content {
         margin: 10px;
-	padding-top: 100px;
     }
 
     .work li {
-        padding-bottom: 30px;
+        padding-bottom: 50px;
     }
 	
     /* CONTACT */
