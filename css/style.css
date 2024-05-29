@@ -498,9 +498,9 @@ input[type="submit"] {
 
 footer {
     background: rgb(223, 220, 220);
-    padding: 30px 820px 30px 180px;
+    padding: 30px 100px 100px 180px;
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
 }
 
 footer p {
