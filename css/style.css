@@ -427,34 +427,14 @@ label {
     display: block;
 }
 
-.seimei {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-}
-
-input[type="text"] {
-    background: rgba(255,255,255,.5);
-    border-bottom: 1px #050505 solid;
-    padding: 10px 35px;
-    font-size: 1rem;
-}
-
-input[type="text"]:hover {
-    background: rgba(255,255,255,.5);
-    border-bottom: 1px #9d9c9c solid;
-    padding: 10px 35px;
-    font-size: 1rem;
-}
-
-input[type="email"],input[type="phonenumber"],textarea {
+input[type="text"],input[type="email"],input[type="phonenumber"],textarea {
     background: rgba(255,255,255,.5);
     border-bottom: 1px #050505 solid;
     padding: 10px 180px;
     font-size: 1rem;
 }
 
-input[type="email"]:hover,input[type="phonenumber"]:hover,textarea:hover {
+input[type="text"],input[type="email"]:hover,input[type="phonenumber"]:hover,textarea:hover {
     background: rgba(255,255,255,.5);
     border-bottom: 1px #9d9c9c solid;
     padding: 10px 180px;
@@ -682,11 +662,7 @@ footer p {
 	
     /* CONTACT */
 
-	input[type="text"] {
-    		width: 30%;
-	}
-
-	input[type="email"],input[type="phonenumber"] {
+	input[type="text"],input[type="email"],input[type="phonenumber"] {
     		width: 70%;
 	}
 
