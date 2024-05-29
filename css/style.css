@@ -673,11 +673,11 @@ footer p {
     /* CONTACT */
 
     input[type="text"],input[type="email"],input[type="phonenumber"],textarea {
-        padding: 10px 120px;
+        padding: 10px 110px;
     }
 
     input[type="text"],input[type="email"]:hover,input[type="phonenumber"]:hover,textarea:hover {
-        padding: 10px 120px;
+        padding: 10px 110px;
     }
 
     input[type="text"],input[type="email"],input[type="phonenumber"] {
