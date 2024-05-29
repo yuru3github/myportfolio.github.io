@@ -682,18 +682,18 @@ footer p {
 	
     /* CONTACT */
 
-input[type="text"] {
-    max-width: 30px;
-}
+	input[type="text"] {
+    		max-width: 30px;
+	}
 
-input[type="email"]input[type="phonenumber"] {
-    max-width: 70px;
-}
+	input[type="email"]input[type="phonenumber"] {
+    		max-width: 70px;
+	}
 
-textarea {
-    max-width: 300px;
-    height: 6rem;
-}
+	textarea {
+    		max-width: 300px;
+    		height: 6rem;
+	}
     
     /* フッター */
     
