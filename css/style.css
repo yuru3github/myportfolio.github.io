@@ -514,14 +514,6 @@ footer p {
     list-style: none;
 }
 
-.sns {
-    display: flex;
-    width: 1px;
-}
-
-.sns img {
-    width: 5px;
-}
 
 /* モバイル */
 @media (max-width: 800px) {
