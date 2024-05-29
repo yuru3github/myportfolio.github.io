@@ -662,9 +662,9 @@ footer p {
 	
     /* WORK */
 
-    .work h2 {
+    .work-content h2 {
         padding-top: 100px;
-	padding-bottom: 50px;
+	padding-bottom: 80px;
     }
 	
     .work-content {
@@ -672,7 +672,7 @@ footer p {
     }
 
     .work li {
-        padding-bottom: 50px;
+        padding-bottom: 80px;
     }
 	
     /* CONTACT */
