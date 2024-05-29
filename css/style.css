@@ -682,28 +682,16 @@ footer p {
     
     /* CONTACT */
 
-.contact-content {
-    padding: 0 20% 8%;
-}
-
 input[type="text"] {
-    padding: 10px 35px;
+    padding: 10px 5px;
 }
 
 input[type="text"]:hover {
-    padding: 10px 35px;
-}
-
-input[type="email"],input[type="phonenumber"],textarea {
-    padding: 10px 180px;
-}
-
-input[type="email"]:hover,input[type="phonenumber"]:hover,textarea:hover {
-    padding: 10px 180px;
+    padding: 10px 5px;
 }
 
 input[type="text"],input[type="email"]input[type="phonenumber"] {
-    max-width: 200px;
+    max-width: 100px;
 }
     
     /* フッター */
