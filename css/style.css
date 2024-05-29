@@ -514,14 +514,14 @@ footer p {
     list-style: none;
 }
 
-.sns {
+.sns li {
     display: flex;
     justify-content: left;
     padding-left: 2px;
 }
 
 .sns img {
-    width: 5px;
+    width: 2px;
 }
 
 /* モバイル */
