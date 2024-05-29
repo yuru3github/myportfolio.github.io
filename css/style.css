@@ -498,7 +498,7 @@ input[type="submit"] {
 
 footer {
     background: rgb(223, 220, 220);
-    padding: 30px 180px;
+    padding: 30px 800px 100px 180px;
     display: flex;
     justify-content: left;
 }
@@ -518,11 +518,6 @@ footer p {
     display: flex;
     justify-content: left;
     list-style: none;
-    padding-left: 2px;
-}
-
-.sns img {
-    width: 2px;
 }
 
 /* モバイル */
