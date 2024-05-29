@@ -679,7 +679,17 @@ footer p {
     .aboutslist p {
         padding-left: 5px;
     }
-    
+
+    /* WORK */
+
+.blur img{
+	width: 80%;
+}
+
+.blur a:hover img{
+	width: 80%;
+}
+	
     /* CONTACT */
 
 .contact {
