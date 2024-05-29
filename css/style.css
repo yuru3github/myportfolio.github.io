@@ -496,7 +496,33 @@ input[type="submit"] {
 
 /* フッター */
 
+footer {
+    background: rgb(223, 220, 220);
+    padding: 30px 180px;
+    display: flex;
+    justify-content: left;
+}
 
+footer p {
+    color: rgb(5, 5, 5);
+    font-size: 1.2rem;
+    display: left;
+    padding-top: 3px;
+}
+
+.tel-mail {
+    list-style: none;
+}
+
+.sns {
+    display: flex;
+    justify-content: left;
+    padding-left: 2px;
+}
+
+.sns img {
+    width: 5px;
+}
 
 /* モバイル */
 @media (max-width: 800px) {
