@@ -461,7 +461,7 @@ input[type="email"]:hover,input[type="phonenumber"]:hover,textarea:hover {
     font-size: 1rem;
 }
 
-input[type="text"],input[type="email"]input[type="phonenumber"] {
+input[type="text"],input[type="email"],input[type="phonenumber"] {
     width: 100%;
     max-width: 500px;
 }
@@ -683,15 +683,15 @@ footer p {
     /* CONTACT */
 
 	input[type="text"] {
-    		max-width: 10px;
+    		max-width: 15px;
 	}
 
-	input[type="email"]input[type="phonenumber"] {
-    		max-width: 30px;
+	input[type="email"],input[type="phonenumber"] {
+    		max-width: 35px;
 	}
 
 	textarea {
-    		max-width: 100px;
+    		max-width: 80px;
     		height: 6rem;
 	}
     
