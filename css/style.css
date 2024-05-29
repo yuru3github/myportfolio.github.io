@@ -662,11 +662,23 @@ footer p {
 	
     /* WORK */
 
+    .work-content {
+        margin: 10px;
+    }
+
     .work li {
         padding-bottom: 30px;
     }
 	
     /* CONTACT */
+
+    input[type="text"],input[type="email"],input[type="phonenumber"],textarea {
+        padding: 10px 120px;
+    }
+
+    input[type="text"],input[type="email"]:hover,input[type="phonenumber"]:hover,textarea:hover {
+        padding: 10px 120px;
+    }
 
     input[type="text"],input[type="email"],input[type="phonenumber"] {
     	max-width: 70%;
