@@ -519,6 +519,10 @@ footer p {
     width: 1px;
 }
 
+.sns img {
+    width: 5px;
+}
+
 /* モバイル */
 @media (max-width: 800px) {
     
