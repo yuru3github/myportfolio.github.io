@@ -519,7 +519,7 @@ footer p {
 @media (max-width: 800px) {
     
     img {
-        max-width: 80%;
+        width: 80%;
     }
     
     h1 {
@@ -683,15 +683,15 @@ footer p {
     /* CONTACT */
 
 	input[type="text"] {
-    		width: 50px;
+    		width: 30%;
 	}
 
 	input[type="email"],input[type="phonenumber"] {
-    		width: 110px;
+    		width: 70%;
 	}
 
 	textarea {
-    		width: 110px;
+    		width: 70%;
     		height: 6rem;
 	}
     
