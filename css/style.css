@@ -503,17 +503,17 @@ footer {
     justify-content: left;
 }
 
-
+footer p {
+    color: rgb(5, 5, 5);
+    font-size: 1.2rem;
+    display: left;
+    padding-top: 3px;
+}
 
 .tel-mail {
     list-style: none;
 }
 
-.sns {
-    display: flex;
-    justify-content: left;
-    list-style: none;
-}
 
 /* モバイル */
 @media (max-width: 800px) {
