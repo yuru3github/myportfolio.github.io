@@ -661,18 +661,10 @@ footer p {
     }
 	
     /* WORK */
-
-    .work-content h2 {
-        padding-top: 100px;
-	padding-bottom: 80px;
-    }
 	
     .work-content {
         margin: 10px;
-    }
-
-    .work li {
-        padding-bottom: 80px;
+        padding-top: 100px;
     }
 	
     /* CONTACT */
