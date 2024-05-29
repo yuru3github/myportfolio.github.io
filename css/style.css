@@ -662,7 +662,14 @@ footer p {
 	
     /* CONTACT */
 
-    
+    input[type="text"],input[type="email"],input[type="phonenumber"] {
+    	width: 70%;
+    }
+
+    textarea {
+    	width: 70%;
+    }
+	
     /* フッター */
     
     footer {
