@@ -660,6 +660,12 @@ footer p {
         padding-left: 5px;
     }
 	
+    /* WORK */
+
+    .work li {
+        padding-bottom: 30px;
+    }
+	
     /* CONTACT */
 
     input[type="text"],input[type="email"],input[type="phonenumber"] {
