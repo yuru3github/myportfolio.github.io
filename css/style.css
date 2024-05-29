@@ -664,6 +664,7 @@ footer p {
 
     .work-content {
         margin: 10px;
+	padding-top: 100px;
     }
 
     .work li {
