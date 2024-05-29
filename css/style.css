@@ -683,15 +683,15 @@ footer p {
     /* CONTACT */
 
 	input[type="text"] {
-    		max-width: 30px;
+    		max-width: 10px;
 	}
 
 	input[type="email"]input[type="phonenumber"] {
-    		max-width: 70px;
+    		max-width: 30px;
 	}
 
 	textarea {
-    		max-width: 300px;
+    		max-width: 100px;
     		height: 6rem;
 	}
     
