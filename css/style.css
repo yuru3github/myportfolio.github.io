@@ -496,14 +496,14 @@ input[type="submit"] {
 
 /* フッター */
 
-
-
-footer p {
-    color: rgb(5, 5, 5);
-    font-size: 1.2rem;
-    display: left;
-    padding-top: 3px;
+footer {
+    background: rgb(223, 220, 220);
+    padding: 30px 180px 30px 180px;
+    display: flex;
+    justify-content: left;
 }
+
+
 
 .tel-mail {
     list-style: none;
