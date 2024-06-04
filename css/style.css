@@ -550,13 +550,17 @@ footer p {
         margin: 80px 0 0 0;
         height: 500px;
         position:relative;
-        width: 110%;
+        width: 130%;
     }
     
     .home-content {
         position:absolute;
         top: 57%;
         left: 22%;
+    }
+
+    .draw-a {
+    left: 100%;
     }
     
     .prev-about h3 {
@@ -570,7 +574,7 @@ footer p {
     
     .amo {
         border-bottom: 10rem solid rgb(241, 239, 239);
-        width: 110%;
+        width: 130%;
     }
     
     .about-more {
@@ -634,6 +638,7 @@ footer p {
     
     .aboutphoto {
         margin: 80px 0 0 0;
+	width: 130%;
         position: relative;
     }
     
@@ -641,7 +646,7 @@ footer p {
         width: 80%;
         position: absolute;
         top: 25%;
-        left: 10%;
+        left: 15%;
     }
     
     .career {
@@ -688,7 +693,7 @@ footer p {
     
     footer {
         padding: 20px 270px 20px 50px;
-        width: 110%;
+        width: 130%;
     }
     
     footer p {
